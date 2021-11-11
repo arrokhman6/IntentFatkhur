@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IntentFatkhur">
-        <activity android:name=".MoveActivity"></activity>
+        <activity
+            android:name=".activity_move_for_result"
+            android:exported="false" />
+        <activity
+            android:name=".MoveWithDataActivity"
+            android:exported="false" />
+        <activity android:name=".MoveActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
